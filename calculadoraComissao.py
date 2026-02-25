@@ -101,7 +101,7 @@ with st.sidebar:
     st.header("⚙️ Parâmetros da Simulação")
     
     meta_tpv_mes = st.number_input(
-        "📈 Meta de TPV da Franquia (R$)", min_value=0.0, value=300000.0, step=10000.0, format="%.2f"
+        "📈 Meta de TPV do Agente (R$)", min_value=0.0, value=300000.0, step=10000.0, format="%.2f"
     )
     meta_desejada = st.number_input(
         "💰 Meta de comissão no bolso (R$)", min_value=0.0, value=5000.0, step=500.0, format="%.2f"
